@@ -1,0 +1,21 @@
+# Virtuelle Umgebungen
+.venv_py312/
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+*.env
+
+# Python spezifische Ignorierungen
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm spezifische Ignorierungen
+../.idea/
+
+# Betriebssystemspezifische Ignorierungen
+.DS_Store
+Thumbs.db
