@@ -1,0 +1,7 @@
+crewai
+langchain-google-genai
+crewai-tools
+python-dotenv
+google-generativeai
+tiktoken<0.8.0  # Try an older version of tiktoken
+
