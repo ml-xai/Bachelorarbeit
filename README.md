@@ -6,8 +6,7 @@ Dieses Repository enthält den Prototyp eines KI-basierten Agenten, der im Rahme
 
 ## Motivation
 
-Gesundheitssysteme stoßen bei der Versorgung im Bereich der mentalen Gesundheit zunehmend an ihre Grenzen. Lange Wartezeiten auf Therapieplätze und die Angst vor Stigmatisierung stellen für viele Menschen eine große Hürde dar. Gleichzeitig suchen Personen, die sich bereits in kognitiver Verhaltenstherapie (KVT) befinden, nach Wegen, das Gelernte im Alltag umzusetzen.
-
+Gesundheitssysteme kämpfen zunehmend damit, eine adäquate Versorgung im Bereich der mentalen Gesundheit zu gewährleisten. Lange Wartezeiten auf Therapieplätze und die Angst vor Stigmatisierung hindern viele Menschen daran, Hilfe zu suchen, während jene, die bereits in kognitiver Verhaltenstherapie (KVT) sind, Unterstützung bei der Umsetzung des Gelernten im Alltag benötigen.
 ## Ziel
 
 Das Ziel der Arbeit war nicht die Entwicklung eines marktreifen Produkts, sondern die wissenschaftliche Analyse von realen Nutzererfahrungen. Im Fokus stand die Beantwortung der Forschungsfrage:
