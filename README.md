@@ -1,3 +1,33 @@
+# KI-basierter KVT-Agent – Bachelorarbeit
+
+Dieses Repository enthält den Prototyp eines KI-basierten Agenten, der im Rahmen meiner Bachelorarbeit an der Hochschule Pforzheim entwickelt wurde. Die Arbeit mit dem Titel **„Potenziale und Limitationen eines KI-basierten KVT-Agenten: Eine qualitative Analyse von Nutzerinteraktionen und -Feedback“** untersucht die Chancen und Herausforderungen meines KI-Agenten.
+
+---
+
+## Motivation
+
+Gesundheitssysteme stoßen bei der Versorgung im Bereich der mentalen Gesundheit zunehmend an ihre Grenzen. Lange Wartezeiten auf Therapieplätze und die Angst vor Stigmatisierung stellen für viele Menschen eine große Hürde dar. Gleichzeitig suchen Personen, die sich bereits in kognitiver Verhaltenstherapie (KVT) befinden, nach Wegen, das Gelernte im Alltag umzusetzen.
+
+## Ziel
+
+Das Ziel der Arbeit war nicht die Entwicklung eines marktreifen Produkts, sondern die wissenschaftliche Analyse von realen Nutzererfahrungen. Im Fokus stand die Beantwortung der Forschungsfrage:
+
+**„Welche Potenziale und Limitationen weist ein Prototyp eines KI-basierten KVT-Agenten bei der Unterstützung von Nutzern auf, basierend auf einer qualitativen Analyse von Nutzerinteraktionen und -Feedback?“**
+
+Mithilfe einer qualitativen Untersuchung sollten die Perspektiven von Nutzern auf den Agenten herausgearbeitet werden, um Potenziale zu identifizieren und Limitationen aufzuzeigen.
+
+## Kerntechnologien
+
+Der Prototyp wurde mit folgenden Technologien und Frameworks umgesetzt:
+
+* **Programmiersprache:** Python
+* **KI-Agenten-Framework:** CrewAI, ein Open-Source-Framework zur Orchestrierung von Multi-Agenten-Systemen
+* **Large Language Model (LLM):** Google Gemini (gemini-1.5-flash-8b), angebunden über die AI-Studio API
+* **Wissensbasis (RAG):** Zur Anreicherung der Antworten wurde eine Retrieval-Augmented Generation (RAG) Architektur implementiert.
+* **Vektordatenbank:** Eine lokale ChromaDB-Instanz dient zur Speicherung und Abfrage von Fachinformationen aus PDF-Dokumenten.
+* **Zusätzliche Tools:** Die Agenten nutzen unter anderem das SerperDevTool für die Google-Suche und das ScrapeWebsiteTool zum Extrahieren von Webinhalten.
+
+
 # GeminiAgents Crew
 
 Welcome to the GeminiAgents Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
@@ -21,11 +51,6 @@ crewai install
 ### Customizing
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/gemini_agents/config/agents.yaml` to define your agents
-- Modify `src/gemini_agents/config/tasks.yaml` to define your tasks
-- Modify `src/gemini_agents/crew.py` to add your own logic, tools and specific args
-- Modify `src/gemini_agents/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
 
